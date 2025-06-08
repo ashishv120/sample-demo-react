@@ -16,8 +16,8 @@ pipeline {
         stage('Build React App') {
             steps {
                 dir("${REACT_DIR}") {
-                    sh 'npm install'
-                    sh 'npm run build'
+                    // sh 'npm install'
+                    // sh 'npm run build'
                 }
             }
         }
